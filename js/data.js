@@ -219,9 +219,9 @@ const therapists = [
     {
         name: "李明远",
         avatar: "https://thumbnail0.baidupcs.com/thumbnail/1a518a55bod655fb8350ed8e478b4ea3?fid=1585530642-250528-604198695481644&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-6oQ9k8%2bh8SmhajEHkWm3NyddLPI%3d&expires=8h&chkbd=0&chkv=0&dp-logid=548728254705790460&dp-callid=0&time=1700316000&size=c1999_u1999&quality=100&vuk=1585530642&ft=image",
-        price: "300",
+        price: "400",
         pricetime: "/50分钟",//（线下400/50分钟）
-        pricedetail: "(线上)300/50分钟（线下)400/50分钟",
+        pricedetail: "400/50分钟",
         info: "多流派受训，硕士学历，持续督导",
         experience: "700+小时",
         city: ["北京"],
