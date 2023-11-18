@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./css/homenav.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/therapistList.css">
+    <link rel="shortcut icon" href="./img/static/logofavicon.ico" type="image/x-icon">
+    <script src="./js/code.jquery.com_jquery-3.7.1.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/therapisList.js"></script>
+    <title>咨询师列表 - 暖光心理</title>
+</head>
+
+<body>
+    <div class="home-nav">
+        <div class="logo">
+            <a href="./index.html"><img style="max-height: 64px;" src="./img/static/mainlogo.png" alt=""></a>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="./index.html">主页</a></li>
+                <li><a href="./therapistList.html">咨询师</a></li>
+                <li><a href="./about.html">关于</a></li>
+                <li><a href="./faq.html">常见问题</a></li>
+                <li><a href="javascript:;">联系我们<img
+                            src="https://thumbnail0.baidupcs.com/thumbnail/8e9eddb6esfd93304e5b0fd82918f33d?fid=1585530642-250528-462257723896723&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-kC%2fqSt%2f6afgc56kes9bQ3hG5SY4%3d&expires=8h&chkbd=0&chkv=0&dp-logid=548648398855417386&dp-callid=0&time=1700316000&size=c1999_u1999&quality=100&vuk=1585530642&ft=image"
+                            alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left-box">
+            <!-- 筛选器 -->
+            <div class="select-box">
+                <div class="select-tab">
+                    <div class="select-title">类型</div>
+                    <ul class="select-list">
+                        <li class="opt category active"><a href="javascript:;">全部类别</a></li>
+                        <li class="opt category"><a href="javascript:;">成人个体</a></li>
+                        <li class="opt category"><a href="javascript:;">家庭/伴侣</a></li>
+                        <li class="opt category"><a href="javascript:;">儿童/青少年</a></li>
+                    </ul>
+                </div>
+                <div class="select-tab">
+                    <div class="select-title">城市</div>
+                    <ul class="select-list">
+                        <li class="opt city active"><a href="javascript:;">全部城市</a></li>
+                        <li class="opt city"><a href="javascript:;">北京</a></li>
+                        <li class="opt city"><a href="javascript:;">上海</a></li>
+                        <li class="opt city"><a href="javascript:;">珠海</a></li>
+                        <li class="opt city"><a href="javascript:;">广州</a></li>
+                        <li class="opt city"><a href="javascript:;">中山</a></li>
+                        <li class="opt city"><a href="javascript:;">海外</a></li>
+                    </ul>
+                </div>
+                <div class="select-tab">
+                    <div class="select-title">方式</div>
+                    <ul class="select-list">
+                        <li class="opt way active"><a href="javascript:;">全部</a></li>
+                        <li class="opt way"><a href="javascript:;">视频</a></li>
+                        <li class="opt way"><a href="javascript:;">面对面</a></li>
+                    </ul>
+                </div>
+                <div class="select-tab">
+                    <div class="select-title">性别</div>
+                    <ul class="select-list">
+                        <li class="opt gender active"><a href="javascript:;">全部</a></li>
+                        <li class="opt gender"><a href="javascript:;">男</a></li>
+                        <li class="opt gender"><a href="javascript:;">女</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 价格排序 -->
+            <div class="top-box">I 心理咨询师</div>
+            <ul class="sort-box">
+                <li class="opt price active"><a href="javascript:;">默认排序</a></li>
+                <li class="opt price"><a href="javascript:;">价格从低到高</a></li>
+                <li class="opt price"><a href="javascript:;">价格从高到低</a></li>
+            </ul>
+            <!-- 咨询师列表 -->
+            <ul class="therapist-list">
+                <!-- 样板 -->
+                <!-- <li class="therapist-item">
+                    <a  class="avatar" style="background-image: url(./img/avatar/乐康博1.jpg);"></a>
+                    <ul>
+                        <li><a href="">乐康博</a><span></span><span>咨询方式：视频</span><span>咨询经验：200+小时</span><span>珠海市</span></li>
+                        <li><span>硕士毕业于北京师范大学临床与咨询专业。本科毕业于新西兰奥克</span></li>
+                        <li><span><span style="margin-right: 0;color: #ffa202;">￥400</span>/50分钟</span></li>
+                    </ul>
+                    <a href="" class="detail"><button>详细信息</button></a>
+                </li> -->
+            </ul>
+        </div>
+        <div class="right-box">
+            <!-- <div class="event-pic">我是广告图片</div> -->
+            <div class="process">
+                <p style="font-weight: 600;margin-bottom: 30px;text-align: start;">I 如何开始咨询</p>
+                <p>选择咨询师</p>
+                <p class="descript">了解咨询师的专业背景和服务范围</p>
+                <div style="position: absolute;left: 46%;top: 29%;"><img style="max-width: 25%;"
+                        src="./img/static/arrow-down.png" alt=""></div>
+                <p>预约咨询师</p>
+                <p class="descript">添加<a href="javascript:;"><img
+                            src="https://thumbnail1.baidupcs.com/thumbnail/8e9eddb6esfd93304e5b0fd82918f33d?fid=1585530642-250528-462257723896723&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-JgBRAGG%2fAHfvSdPAVpJtncMsl4k%3d&expires=8h&chkbd=0&chkv=0&dp-logid=539482975381836578&dp-callid=0&time=1700280000&size=c1536_u864&quality=90&vuk=1585530642&ft=image&autopolicy=1"
+                            alt="">小助理</a>企业微信，填写信息登记表、知情同意书，确认预约时间和日期。</p>
+                <div style="position: absolute;left: 46%;top: 53%;"><img style="max-width: 25%;"
+                        src="./img/static/arrow-down.png" alt=""></div>
+                <p>初次会面</p>
+                <p class="descript">在预约时间和日期确认后，小助理会将咨询师的企业微信推送给你，咨询师将会告知进行咨询的地点/软件（线上），你也可以通过企业微信直接与咨询师进行沟通。</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="copyright">
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script> 版权所有 | 珠海暖光咨询服务有限公司
+        </p>
+    </footer>
+</body>
+
+</html>

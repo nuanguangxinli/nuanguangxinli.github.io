@@ -1,0 +1,16 @@
+.article {
+    text-align: left;
+    padding: 64px 15vw;
+}
+
+.jump {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+    padding: 2rem 1rem 2rem;
+    background-image: url(../img/static/jump.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

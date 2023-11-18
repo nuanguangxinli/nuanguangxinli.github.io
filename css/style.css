@@ -1,0 +1,205 @@
+/* 图文首页 */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 0 16px 0;
+}
+
+.home-page h1 {
+  text-align: center;
+}
+
+.home-page span {
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 1.5rem 0 3.125rem 0;
+}
+
+.home-page .img-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.img-box div {
+  position: relative;
+  margin: 0 10px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.img-box span {
+  position: absolute;
+  padding: 0;
+  top: 15px;
+  left: 20px; 
+}
+
+.img-box img {
+  height: 20rem;
+}
+
+.home-page button {
+  width: 218px;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 30px;
+  background-color: #fffcf6;
+  color: #153d61;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.home-page button:hover {
+  background-color: #cbc5b6;
+  color: #fff;
+  opacity: .8;
+}
+
+.home-page .anchor {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.home-page a:hover {
+  opacity: 0.7;
+}
+
+/* 文字描述 */
+.container-a {
+    background-color: #fffcf6;
+    display: flex;
+    padding: 4rem 10vw;
+    border-top-left-radius: 50% 50px;
+    border-top-right-radius: 50% 50px;
+}
+
+.container-a .box-a {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  flex: 1;
+  padding: 5rem 0rem 5rem 3rem;
+  /* margin: 7.5rem 0; */
+  /* height: 100vh; */
+}
+
+.box-a p {
+  line-height: 2;
+  font-size: 1.2rem;
+  /* letter-spacing: .125rem; */
+  /* text-indent:2em; */
+}
+
+.container-a .pic-a {
+  /* margin: 4rem 0; */
+  flex: 1;
+  padding: 0 3rem 0 0rem;
+}
+
+.container-a .pic-a div {
+  height: 100%;
+  border-radius: 35px;
+  background-image: url(https://thumbnail0.baidupcs.com/thumbnail/11de18e1co2f6278e6a4b8a93fe95c6f?fid=1585530642-250528-4360665469685&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-97YqIoLbBiweQOw%2bDx%2focG0x1t8%3d&expires=8h&chkbd=0&chkv=0&dp-logid=548648398855417386&dp-callid=0&time=1700316000&size=c1999_u1999&quality=100&vuk=1585530642&ft=image);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* 咨询流程 */
+.container {
+  background-color: #f5f7f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-left-radius: 50% 50px;
+  border-top-right-radius: 50% 50px;
+}
+
+.container h2 {
+  margin: 2rem 0 5rem;
+}
+
+.container .box {
+  position: relative;
+  display: flex;
+  height: 30rem;
+  width: 70rem;
+  margin-bottom: 5rem;
+  transform: translateY(30%);
+  transition: transform .9s ease;
+}
+
+.container .box.show-center {
+  transform: translateY(0);
+}
+
+.box .pic {
+  flex: 1;
+  width: 12rem;
+  margin: 5vh 0;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  overflow: hidden;
+}
+
+.box .descript {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  flex: 0.5;
+  padding: 0 5rem;
+}
+
+.box .descript.reversal {
+  text-align: right;
+}
+
+.descript p {
+  margin: 1.5rem 0 1.25rem;
+  position: relative;
+}
+
+.box a img {
+  display: none;
+  position: absolute;
+  top: 0;
+  transform: translateY(-100%);
+  max-width: 150px;
+  border-radius: 5px;
+}
+
+.box a:hover img {
+  display: block;
+  opacity: 1;
+}
+/* 
+@media (max-width: 768px) {
+  .home-page .img-box {
+    flex-direction: column;
+  }
+
+  .img-box div {
+    margin: 10px 0;
+  }
+
+  .img-box img {
+    height: 10rem;
+  }
+} */
+
+@media (max-width: 768px) {
+  .container .box {
+    display: flex;
+    flex-direction: column;
+  }
+}

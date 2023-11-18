@@ -1,0 +1,175 @@
+body {
+    background-color: #fffcf6;
+}
+
+.container {
+  
+    margin-top: 64px;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.left-box {
+    border-radius: 1.25rem;
+    padding: 30px 20px;
+    background-color: #f5f7f5;
+    width: 40rem;
+    margin-right: 1.5rem;
+}
+
+.right-box {
+    width: 22rem;
+}
+
+.right-box a {
+    position: relative;
+    text-decoration: underline;
+}
+
+.right-box a img {
+    display: none;
+    position: absolute;
+    top: 0;
+    transform: translateY(-100%);
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.right-box a:hover img {
+    display: block;
+    opacity: 1;
+}
+
+
+/* 筛选器 */
+.select-tab {
+    display: flex;
+}
+
+.select-title {
+    font-size: 18px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.select-list, .sort-box {
+    margin-left: 15px;
+    display: block;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;
+}
+
+.sort-box {
+    padding-bottom: 10px;
+}
+
+.select-list li, .sort-box li {
+    display: inline-block;
+    margin-left: 28px;
+    margin-bottom: 10px;
+}
+
+.select-list li a, .sort-box li a {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+ul li.active a {
+    color: #6982fa;
+}
+
+/* 心理咨询师表头 */
+.top-box {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 2rem 0 1rem 0;
+}
+
+.sort-box {
+    padding-inline-start: 0;
+}
+
+.sort-box li {
+    margin-left: 0;
+    margin-right: 28px;
+}
+
+/* 咨询师列表 */
+.therapist-list .therapist-item {
+    position: relative;
+    height: 68px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.therapist-item .avatar {
+    cursor: pointer;
+    height: 68px;
+    width: 68px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.therapist-list span {
+    font-size: 14px;
+    margin-right: 16px;
+}
+
+
+.therapist-list .loca {
+    position: absolute;
+    right: 7rem;
+}
+
+.therapist-list .therapist-item .detail {
+    height: 32px;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.therapist-item li {
+    height: 25px;
+}
+
+button {
+    position: absolute;
+    right: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: #153d61;
+    border: 1px solid #153d61;
+    cursor: pointer;
+    background-color: #f5f7f5;
+}
+
+/* 右侧活动栏 */
+.right-box .event-pic {
+    height: 180px;
+    border-radius: 1.25rem;
+    background-color: #f5f7f5;
+    margin-bottom: 20px;
+}
+
+.right-box .process {
+    position: relative;
+    padding: 30px 20px;
+    border-radius: 1.25rem;
+    background-color: #f5f7f5;
+}
+
+.process p {
+    text-align: center;
+}
+
+.process .descript {
+    font-size: 14px;
+    margin-bottom: 50px;
+}

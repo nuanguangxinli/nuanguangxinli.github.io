@@ -1,0 +1,56 @@
+.container .box h3 {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.container .box p {
+    font-size: 1rem;
+}
+
+.qa {
+    position: relative;
+    margin: 0 16vw;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #adb2ac;
+}
+
+.qa input {
+    appearance: none;
+}
+
+.qa label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.qa label::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+}
+
+.qa:hover label::after {
+    color: #153d61;
+}
+
+.qa input:checked ~ label::after {
+    transform: rotate(135deg);
+}
+
+.qa p {
+    max-height: 0;
+    transition: 1.5s;
+    overflow: hidden;
+}
+
+.qa input:checked ~ p {
+    max-height: 100vh;
+}
+
+
+
+
