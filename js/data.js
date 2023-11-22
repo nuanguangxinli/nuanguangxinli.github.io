@@ -99,7 +99,7 @@ const therapists = [
         avatar: "https://i.mji.rip/2023/11/19/cb1747f8aa5b9631e6c4049d8ecfdf43.png",
         price: "300",
         pricetime: "/50分钟",//（线上）400（线下）/50分钟
-        pricedetail: "4300/50分钟（线上）400（线下）/50分钟",
+        pricedetail: "300/50分钟（线上）400（线下）/50分钟",
         info: "多流派受训，硕士学历，心理治疗师",
         experience: "300+小时",
         city: ["中山"],
