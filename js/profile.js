@@ -14,7 +14,7 @@ function scrolling() {
 let a = window.location.search.split('=')
 
 let therapist = {}
-for (let index = 0; index < 10; index++) {
+for (let index = 0; index < 15; index++) {
     if (Number(a[1]) === index) {
         therapist = therapists[Number(a[1]) - 1]
     }
