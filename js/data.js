@@ -55,7 +55,11 @@ const therapists = [
             intro: ["北京师范大学临床与咨询心理专业硕士，接受系统心理咨询受训。曾任北京师范大学心理学部心理健康服务中心咨询师、西北大学心理健康服务中心咨询师。研究生阶段主要科研方向：情绪与行为适应、青少年自伤行为。"],
             field: ["工作人群：青少年、成人、性少数群体；", "擅长方向：个人成长、亲密关系、情绪适应、学业职场"],
             education: ["2020.09-2022.06  北京师范大学临床与咨询心理学专业硕士", "2021.06-2021.10  图式治疗课程培训 林孟仪"],
-            works: ["Liu, J., Wang, Y., Liu, X., Li, J., & Xing, S. (2023). Experiencing stress impact on adolescent repetitive nonsuicidal self-injury: The Mediating role of emotion dysregulation and maladaptive cognitive schemas [Article]. Journal of Affective Disorders, 339, 392–399.", "Wang Y., Gao Y., Liu J., Bai R., & Liu Z. Reciprocal associations between early maladaptive schemas and depression in adolescence: Long-term effects of childhood abuse and neglect. (Under Review)", "陈子循, 李金文, 王雨萌, 刘霞. (2023). 累积环境风险与大学生自伤的关系：情绪调节策略的作用. 心理发展与教育, 39(01), 109–120.", "李金文, 白荣, 王雨萌, 刘霞. (2023). 青少年抑郁与自伤行为的发展轨迹及其关系：基于两年的追踪研究. 心理发展与教育, 39(03), 429–438. "],
+            works: [
+                "Liu, J., Wang, Y., Liu, X., Li, J., & Xing, S. (2023). Experiencing stress impact on adolescent repetitive nonsuicidal self-injury: The Mediating role of emotion dysregulation and maladaptive cognitive schemas [Article]. Journal of Affective Disorders, 339, 392–399.",
+                "Wang, Y., Gao, Y., Liu, J., Bai, R., & Liu, X. (2023). Reciprocal associations between early maladaptive schemas and depression in adolescence: long-term effects of childhood abuse and neglect. Child and Adolescent Psychiatry and Mental Health, 17(1), 134.",
+                "陈子循, 李金文, 王雨萌, 刘霞. (2023). 累积环境风险与大学生自伤的关系：情绪调节策略的作用. 心理发展与教育, 39(01), 109–120.", "李金文, 白荣, 王雨萌, 刘霞. (2023). 青少年抑郁与自伤行为的发展轨迹及其关系：基于两年的追踪研究. 心理发展与教育, 39(03), 429–438. "
+            ],
             process: ["我们的咨询将大致经历 评估—聚焦—探索—尝试 四个阶段。在初始咨询中，我会收集一些必要的信息，对你的基本情况进行评估。咨访匹配后，我们将共同确认咨询目标，并围绕目标进行充分讨论和探索。心理咨询是深入观察和体悟自我的过程，也是一个链接过去、思考当下的节点，我期待与你一起经历这段时间，一起感受改变的悄然发生。"],
             interview: [["Q1:希望通过咨询传达给来访者的态度？", ["我们是自己世界的主人，拥有自我生活的解释权。"]]]
         },
@@ -97,9 +101,9 @@ const therapists = [
     {
         name: "李思漫",
         avatar: "https://i.mji.rip/2023/11/19/cb1747f8aa5b9631e6c4049d8ecfdf43.png",
-        price: "300",
-        pricetime: "/50分钟",//（线上）400（线下）/50分钟
-        pricedetail: "300/50分钟（线上）400（线下）/50分钟",
+        price: "500",
+        pricetime: "/50分钟",
+        pricedetail: "\n500/50分钟（线上）\n600/50分钟（线下）\n（场地费用双方共同承担，一般各60元/50分钟）",
         info: "多流派受训，硕士学历，心理治疗师",
         experience: "300+小时",
         city: ["中山"],
@@ -136,7 +140,7 @@ const therapists = [
         experience: "400+小时",
         city: ["上海"],
         gender: "女",
-        mode: ["视频", "面对面"],
+        mode: ["视频"],
         major: ["成人个体", "儿童/青少年", "家庭/伴侣"],
         detail: {
             pics: [
@@ -247,7 +251,7 @@ const therapists = [
     },
     {
         name: "岑烯铭",
-        avatar: "https://i.mji.rip/2023/11/19/4dae3e0f28202272fe630a5fcedf2583.png",
+        avatar: "https://i.miji.bid/2023/12/14/1ca040249bc2a5b3779f033180e2064f.png",
         price: "400",
         pricetime: "/50分钟",
         pricedetail: "400/50分钟",
@@ -259,7 +263,7 @@ const therapists = [
         major: ["成人个体"],
         detail: {
             pics: [
-                "https://i.mji.rip/2023/11/19/4dae3e0f28202272fe630a5fcedf2583.png",
+                "https://i.miji.bid/2023/12/14/1ca040249bc2a5b3779f033180e2064f.png",
                 "https://i.mji.rip/2023/11/19/2564cf25ca71895e7b5d70a24acaaa32.png",
                 "https://i.mji.rip/2023/11/19/214e896f5a2add8cce45254473e5ccfb.png",
                 "https://i.mji.rip/2023/11/19/4110313efbd26a9f432196bf9f5fb7b9.png"
